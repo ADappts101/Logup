@@ -1,9 +1,9 @@
 const logupbtn = document.querySelector("button.logupbtn");
-logupbtn.setAttribute("disable");
+logupbtn.setAttribute("disabled");
 function trueCall() {
-  logupbtn.removeAttribute("disable");
+  logupbtn.removeAttribute("disabled");
 }
 
 function falseCall() {
-  logupbtn.setAttribute("disable");
+  logupbtn.setAttribute("disabled");
 }
