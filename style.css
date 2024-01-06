@@ -1,0 +1,9 @@
+body {
+	backround-image: url("https://freesvg.org/img/net-seamless-pattern.png");
+	backround-color: darkblue;
+}
+
+button[type=reset], button[type=submit] {
+
+}
+ 
