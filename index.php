@@ -1,8 +1,13 @@
-$email=GET['email'];
-$pwd=POST['pwd'];
-$pwdRepeat=POST['pwd-repeat'];
-if ($pwdRepeat===$pwd) {
-  echo `<script>trueCall();</script>`;
+<?php
+$email = $_GET['email'];
+$pwd = $_POST['pwd'];
+$pwdRepeat = $_POST['pwd-repeat'];
+
+if ($pwdRepeat === $pwd) {
+    $script = '<script>trueCall();</script>';
 } else {
-  echo `<script>falseCall();</script>`;
+    $script = '<script>falseCall();</script>';
 }
+
+echo $script;
+?>
