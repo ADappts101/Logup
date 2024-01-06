@@ -27,8 +27,12 @@ rememberCheckbox.addEventListener("change", function () {
 logupbtn.setAttribute("disabled", "disabled");
 function trueCall() {
     logupbtn.removeAttribute("disabled");
+    logupbtn.style.backgroundColor("#0c0");
+    logupbtn.style.color("black");
 }
 
 function falseCall() {
     logupbtn.setAttribute("disabled", "disabled");
+    logupbtn.style.backgroundColor("#f00");
+    logupbtn.style.color("#333");
 }
